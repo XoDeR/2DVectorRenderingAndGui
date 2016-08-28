@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\nanovg.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Config\UserOptions.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Murmur.cpp">
+      <Filter>Core\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\DebugConsole.cpp">
+      <Filter>Core\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Error.cpp">
+      <Filter>Core\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Log.cpp">
+      <Filter>Core\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Windows\StackTrace_Windows.cpp">
+      <Filter>Core\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\DiskFile.cpp">
+      <Filter>Core\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\DiskFileSystem.cpp">
+      <Filter>Core\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\Windows\OsFile_Windows.cpp">
+      <Filter>Core\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\Json.cpp">
+      <Filter>Core\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonElement.cpp">
+      <Filter>Core\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonParser.cpp">
+      <Filter>Core\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\Rjson.cpp">
+      <Filter>Core\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Vector2.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\HeapAllocator.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\LinearAllocator.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\Memory.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\PoolAllocator.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\ProxyAllocator.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\ScratchAllocator.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\StackAllocator.cpp">
+      <Filter>Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Os\Windows\Os_Windows.cpp">
+      <Filter>Core\Os</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\DynamicString.cpp">
+      <Filter>Core\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\Path.cpp">
+      <Filter>Core\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringId32.cpp">
+      <Filter>Core\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringId64.cpp">
+      <Filter>Core\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Windows\AtomicInt_Windows.cpp">
+      <Filter>Core\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Windows\Mutex_Windows.cpp">
+      <Filter>Core\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Windows\Semaphore_Windows.cpp">
+      <Filter>Core\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Windows\Thread_Windows.cpp">
+      <Filter>Core\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Time\CrudeTimer.cpp">
+      <Filter>Core\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Time\PrecisionTimer.cpp">
+      <Filter>Core\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Input\InputSystem.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Renderer\Canvas.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\blendish.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Config\UserOptions.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\ConsoleUtils.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\constants.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Common.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Config.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Id.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Macros.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Murmur.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Platform.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Types.h">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\IndexedPriorityQueueLow.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\PriorityQueue.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\PriorityQueueFn.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\PriorityQueueLow.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Array.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Blob.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\DynamicBlob.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\EventStream.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Functional.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\HashMap.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\IdArray.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\IdTable.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Map.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Pair.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\PriorityQueue.New.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Queue.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\SortMap.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Vector.h">
+      <Filter>Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\DebugConsole.h">
+      <Filter>Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Error.h">
+      <Filter>Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Log.h">
+      <Filter>Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\StackTrace.h">
+      <Filter>Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\DiskFile.h">
+      <Filter>Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\DiskFileSystem.h">
+      <Filter>Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\File.h">
+      <Filter>Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileBinaryReader.h">
+      <Filter>Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileBinaryWriter.h">
+      <Filter>Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileSystem.h">
+      <Filter>Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileTextReader.h">
+      <Filter>Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileTextWriter.h">
+      <Filter>Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\OsFile.h">
+      <Filter>Core\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\Json.h">
+      <Filter>Core\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonElement.h">
+      <Filter>Core\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonParser.h">
+      <Filter>Core\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonTypes.h">
+      <Filter>Core\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\Rjson.h">
+      <Filter>Core\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Matrix3x3.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\MathFn.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Math2DFn.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Transformations.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Vector2.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\Allocator.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\HeapAllocator.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\LinearAllocator.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\Memory.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\MemoryAux.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\PoolAllocator.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\ProxyAllocator.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\ScratchAllocator.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\StackAllocator.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\TempAllocator.h">
+      <Filter>Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Os\Os.h">
+      <Filter>Core\Os</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Os\Windows\Headers_Windows.h">
+      <Filter>Core\Os</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\DynamicString.h">
+      <Filter>Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\FixedString.h">
+      <Filter>Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\Path.h">
+      <Filter>Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringId32.h">
+      <Filter>Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringId64.h">
+      <Filter>Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringStream.h">
+      <Filter>Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringUtils.h">
+      <Filter>Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\AtomicInt.h">
+      <Filter>Core\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Mutex.h">
+      <Filter>Core\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\ScopedMutex.h">
+      <Filter>Core\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Semaphore.h">
+      <Filter>Core\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Thread.h">
+      <Filter>Core\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Time\CrudeTimer.h">
+      <Filter>Core\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Time\PrecisionTimer.h">
+      <Filter>Core\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Events\InputEvents.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Input\InputSystem.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Renderer\Canvas.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core\Base">
+      <UniqueIdentifier>{7A4844EB-6587-4438-83E1-FA2D8FDAD1C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Containers">
+      <UniqueIdentifier>{8CC4B562-E58E-455F-8DDB-E0BA0A286E0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Debug">
+      <UniqueIdentifier>{F3918941-DF51-414C-978A-8262CBCF634D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\FileSystem">
+      <UniqueIdentifier>{6AB73AF8-B666-4ABE-A899-B2BB1F9BADD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Json">
+      <UniqueIdentifier>{C32165AF-9C3F-4835-BF6C-66C0AB4C914B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{3F6B7602-9964-47E6-841E-E3B38D8552AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Memory">
+      <UniqueIdentifier>{401F626D-B58D-49C5-A5E6-EF351A98C2BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Os">
+      <UniqueIdentifier>{EB61D99E-9B55-4C4D-8535-4F431BBA12C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Strings">
+      <UniqueIdentifier>{6C3050FA-8764-468E-A2B2-EB2E47E54F11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Thread">
+      <UniqueIdentifier>{1A9324E9-C0A5-4AF2-AF07-6A9DA83E2EB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Time">
+      <UniqueIdentifier>{760C55C2-0055-40E7-BEF5-227895E7E45D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{BE6AFFE4-63F1-4BE2-968D-857FA5269F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E649DE0F-2E9F-43FE-9866-8EC2D8E4A6A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3C58F80E-7253-4BEA-A56B-E8B9B1C30453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{190F5C58-F196-483C-8D3A-D09F8DFB94B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{75437A4D-2236-4557-9C90-6E5776A2F6EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{D5BA3738-B79D-4416-AEB2-03FE95AE8E9D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

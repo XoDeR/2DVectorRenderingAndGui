@@ -1,0 +1,11 @@
+---
+shaderc : app
+texturec : app
+geometryc : app
+makedisttex : app
+bgfx-fcpp : lib
+bgfx-glsl-optimizer : lib
+bgfx : lib
+app-os : lib
+bgfx-3rdparty : lib
+AiBots : app

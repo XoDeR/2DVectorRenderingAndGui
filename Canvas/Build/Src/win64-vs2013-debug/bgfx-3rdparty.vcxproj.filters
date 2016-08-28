@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ib-compress\indexbuffercompression.cpp">
+      <Filter>ib-compress</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ib-compress\indexbufferdecompression.cpp">
+      <Filter>ib-compress</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\imgui.cpp">
+      <Filter>ocornut-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\imgui_demo.cpp">
+      <Filter>ocornut-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\imgui_draw.cpp">
+      <Filter>ocornut-imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ib-compress\indexbuffercompression.h">
+      <Filter>ib-compress</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ib-compress\indexbuffercompressionformat.h">
+      <Filter>ib-compress</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ib-compress\indexbufferdecompression.h">
+      <Filter>ib-compress</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ib-compress\indexcompressionconstants.h">
+      <Filter>ib-compress</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ib-compress\readbitstream.h">
+      <Filter>ib-compress</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ib-compress\writebitstream.h">
+      <Filter>ib-compress</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\imgui.h">
+      <Filter>ocornut-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\imconfig.h">
+      <Filter>ocornut-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\imgui_internal.h">
+      <Filter>ocornut-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\memory_editor.h">
+      <Filter>ocornut-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\stb_rect_pack.h">
+      <Filter>ocornut-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\stb_textedit.h">
+      <Filter>ocornut-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\ocornut-imgui\stb_truetype.h">
+      <Filter>ocornut-imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ib-compress">
+      <UniqueIdentifier>{0900460C-08C2-4E9A-8C72-E2433A9E9097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ocornut-imgui">
+      <UniqueIdentifier>{3CD6C463-E0FD-44A8-8E13-63B778E36195}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\tools\texturec\texturec.cpp">
+      <Filter>texturec</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\image.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\image.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="texturec">
+      <UniqueIdentifier>{F091B427-110B-4816-AEA6-FFE7CFC32305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{18B730D8-7F3A-497E-8907-1F63BB459073}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

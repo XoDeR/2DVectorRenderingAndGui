@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\bgfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\image.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\ovr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderdoc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer_null.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\vertexdecl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer_gl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer_d3d11.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer_d3d12.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer_d3d9.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer_vk.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\glcontext_wgl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\bgfx_p.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\charset.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\glimports.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\image.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\ovr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderdoc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\vertexdecl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer_gl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer_d3d11.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\renderer_d3d9.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear0.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear1.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear2.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear3.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear4.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear5.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear6.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear7.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_debugfont.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\vs_clear.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\vs_debugfont.bin.h">
+      <Filter>src\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\glcontext_wgl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include\bgfx.c99.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include\bgfx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include\bgfxdefines.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include\bgfxplatform.c99.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include\bgfxplatform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\varying.def.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear0.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear1.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear2.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear3.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear4.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear5.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear6.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_clear7.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\fs_debugfont.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\vs_clear.sc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\vs_debugfont.sc">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src\gen">
+      <UniqueIdentifier>{9D06EF2D-D92F-440B-91B9-008DE74D931A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{18B730D8-7F3A-497E-8907-1F63BB459073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{70CAE977-AAF1-401A-B339-2B41D2B7F858}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

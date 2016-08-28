@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\tools\geometryc\geometryc.cpp">
+      <Filter>geometryc</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\vertexdecl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\forsyth-too\forsythtriangleorderoptimizer.cpp">
+      <Filter>forsyth-too</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\bounds.cpp">
+      <Filter>bounds</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src\vertexdecl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\forsyth-too\forsythtriangleorderoptimizer.h">
+      <Filter>forsyth-too</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\bounds.h">
+      <Filter>bounds</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="geometryc">
+      <UniqueIdentifier>{131C21B9-6DE7-48A8-A118-0252EEB5293D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forsyth-too">
+      <UniqueIdentifier>{28B2A475-5E64-4526-B68C-C8966FA123B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bounds">
+      <UniqueIdentifier>{0A86AAEA-A765-4D06-A2E4-14F4D162BCB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{18B730D8-7F3A-497E-8907-1F63BB459073}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

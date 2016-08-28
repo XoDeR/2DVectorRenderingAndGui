@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\bgfx_utils.cpp" />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\bounds.cpp">
+      <Filter>bounds</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\camera.cpp" />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\cube_atlas.cpp" />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\ocornut_imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\nanovg\nanovg.cpp">
+      <Filter>nanovg</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\nanovg\nanovg_bgfx.cpp">
+      <Filter>nanovg</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\font_manager.cpp">
+      <Filter>font</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\text_buffer_manager.cpp">
+      <Filter>font</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\text_metrics.cpp">
+      <Filter>font</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\utf8.cpp">
+      <Filter>font</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\cmd.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\dbg.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\entry.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\input.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\entry_windows.cpp">
+      <Filter>entry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\aviwriter.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\bgfx_utils.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\bounds.h">
+      <Filter>bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\camera.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\common.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\cube_atlas.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_color.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_imgui_color.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_cubemap.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_imgui_cubemap.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_image.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_imgui_image.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_texture.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_imgui_texture.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_ocornut_imgui.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_ocornut_imgui.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_image_swizz.bin.h">
+      <Filter>imgui\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\droidsans.ttf.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\ocornut_imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\nanovg\fs_nanovg_fill.bin.h">
+      <Filter>nanovg\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\nanovg\vs_nanovg_fill.bin.h">
+      <Filter>nanovg\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\nanovg\fontstash.h">
+      <Filter>nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\nanovg\nanovg.h">
+      <Filter>nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\fs_font_basic.bin.h">
+      <Filter>font\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\vs_font_basic.bin.h">
+      <Filter>font\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\fs_font_distance_field.bin.h">
+      <Filter>font\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\vs_font_distance_field.bin.h">
+      <Filter>font\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\fs_font_distance_field_subpixel.bin.h">
+      <Filter>font\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\vs_font_distance_field_subpixel.bin.h">
+      <Filter>font\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\font_manager.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\text_buffer_manager.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\text_metrics.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\utf8.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\cmd.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\dbg.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\entry.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\entry_p.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\entry\input.h">
+      <Filter>entry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_color.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_imgui_color.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_cubemap.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_imgui_cubemap.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_image.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_imgui_image.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_texture.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_imgui_texture.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_ocornut_imgui.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\vs_ocornut_imgui.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\fs_imgui_image_swizz.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\imgui\varying.def.sc">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\nanovg\fs_nanovg_fill.sc">
+      <Filter>nanovg</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\nanovg\vs_nanovg_fill.sc">
+      <Filter>nanovg</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\nanovg\varying.def.sc">
+      <Filter>nanovg</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\fs_font_basic.sc">
+      <Filter>font</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\vs_font_basic.sc">
+      <Filter>font</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\fs_font_distance_field.sc">
+      <Filter>font</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\vs_font_distance_field.sc">
+      <Filter>font</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\fs_font_distance_field_subpixel.sc">
+      <Filter>font</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\vs_font_distance_field_subpixel.sc">
+      <Filter>font</Filter>
+    </None>
+    <None Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os\font\varying.def.sc">
+      <Filter>font</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui\gen">
+      <UniqueIdentifier>{F11C8AF0-5524-4052-B276-524F6BFCD4BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="font\gen">
+      <UniqueIdentifier>{17051444-6DFA-43C5-804F-3F4D8E467171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanovg\gen">
+      <UniqueIdentifier>{CDB3B8A5-FCFF-42EF-905B-CE4289FED6B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bounds">
+      <UniqueIdentifier>{0A86AAEA-A765-4D06-A2E4-14F4D162BCB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{1DF6F31B-CED7-4D66-80CC-C0B5EE310FE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanovg">
+      <UniqueIdentifier>{D0F2C401-8278-4F21-AF79-D5D007171EA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="font">
+      <UniqueIdentifier>{B72DF02E-1F23-43CE-ADE6-DB2E7C0C917E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entry">
+      <UniqueIdentifier>{48FF20F4-E731-4ED7-AC80-0CDC61FF8032}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

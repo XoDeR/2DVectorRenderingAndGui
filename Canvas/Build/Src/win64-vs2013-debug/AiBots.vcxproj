@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6071E5A8-8B68-41FA-BB06-E34A0F57196B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>AiBots</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">d:\Dev\Svn\AiBots\Canvas\Deploy\Src\win64-vs2013-debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AiBots.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AiBots</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">d:\Dev\Svn\AiBots\Canvas\Deploy\Src\win64-vs2013-debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AiBots.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AiBots</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">d:\Dev\Svn\AiBots\Canvas\Deploy\Src\win64-vs2013-debug\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AiBots.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AiBots</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">d:\Dev\Svn\AiBots\Canvas\Deploy\Src\win64-vs2013-debug\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AiBots.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AiBots</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4152;4204;4242;4244;4668;4996;4291</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;_DEBUG;FIPS_DEBUG=1;__STDC__;__STDC_VERSION__=199901L;strdup=_strdup;alloca=_alloca;isascii=__isascii;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;NINCLUDE=64;NWORK=65536;NBUF=65536;OLD_PREPROCESSOR=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;FIPS_DEBUG=1;__STDC__;__STDC_VERSION__=199901L;strdup=_strdup;alloca=_alloca;isascii=__isascii;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;NINCLUDE=64;NWORK=65536;NBUF=65536;OLD_PREPROCESSOR=0;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;dbghelp.lib;wsock32.lib;ws2_32.lib;rpcrt4.lib;wininet.lib;Debug\bgfx.lib;opengl32.lib;Debug\bgfx-3rdparty.lib;Debug\app-os.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug/Debug/AiBots.lib</ImportLibrary>
+      <ProgramDataBaseFile>d:/Dev/Svn/AiBots/Canvas/Deploy/Src/win64-vs2013-debug/AiBots.pdb</ProgramDataBaseFile>
+      <StackReserveSize>5000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4152;4204;4242;4244;4668;4996;4291</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;NDEBUG;__STDC__;__STDC_VERSION__=199901L;strdup=_strdup;alloca=_alloca;isascii=__isascii;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;NINCLUDE=64;NWORK=65536;NBUF=65536;OLD_PREPROCESSOR=0;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;__STDC__;__STDC_VERSION__=199901L;strdup=_strdup;alloca=_alloca;isascii=__isascii;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;NINCLUDE=64;NWORK=65536;NBUF=65536;OLD_PREPROCESSOR=0;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;dbghelp.lib;wsock32.lib;ws2_32.lib;rpcrt4.lib;wininet.lib;Release\bgfx.lib;opengl32.lib;Release\bgfx-3rdparty.lib;Release\app-os.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug/Release/AiBots.lib</ImportLibrary>
+      <ProgramDataBaseFile>d:/Dev/Svn/AiBots/Canvas/Deploy/Src/win64-vs2013-debug/AiBots.pdb</ProgramDataBaseFile>
+      <StackReserveSize>5000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4152;4204;4242;4244;4668;4996;4291</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;NDEBUG;__STDC__;__STDC_VERSION__=199901L;strdup=_strdup;alloca=_alloca;isascii=__isascii;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;NINCLUDE=64;NWORK=65536;NBUF=65536;OLD_PREPROCESSOR=0;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;__STDC__;__STDC_VERSION__=199901L;strdup=_strdup;alloca=_alloca;isascii=__isascii;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;NINCLUDE=64;NWORK=65536;NBUF=65536;OLD_PREPROCESSOR=0;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;dbghelp.lib;wsock32.lib;ws2_32.lib;rpcrt4.lib;wininet.lib;MinSizeRel\bgfx.lib;opengl32.lib;MinSizeRel\bgfx-3rdparty.lib;MinSizeRel\app-os.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug/MinSizeRel/AiBots.lib</ImportLibrary>
+      <ProgramDataBaseFile>d:/Dev/Svn/AiBots/Canvas/Deploy/Src/win64-vs2013-debug/MinSizeRel/AiBots.pdb</ProgramDataBaseFile>
+      <StackReserveSize>5000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4152;4204;4242;4244;4668;4996;4291</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;NDEBUG;__STDC__;__STDC_VERSION__=199901L;strdup=_strdup;alloca=_alloca;isascii=__isascii;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;NINCLUDE=64;NWORK=65536;NBUF=65536;OLD_PREPROCESSOR=0;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;__STDC__;__STDC_VERSION__=199901L;strdup=_strdup;alloca=_alloca;isascii=__isascii;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;NINCLUDE=64;NWORK=65536;NBUF=65536;OLD_PREPROCESSOR=0;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bx\include\compat\msvc;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\glsl;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include\c99;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty;d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\Os;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\fcpp;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\include;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mesa;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src\mapi;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\glsl-optimizer\src;d:\Dev\Svn\AiBots\Canvas\Src\Third\bgfx\3rdparty\khronos;d:\Dev\Svn\AiBots\Canvas\Src\AiBots;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;dbghelp.lib;wsock32.lib;ws2_32.lib;rpcrt4.lib;wininet.lib;RelWithDebInfo\bgfx.lib;opengl32.lib;RelWithDebInfo\bgfx-3rdparty.lib;RelWithDebInfo\app-os.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug/RelWithDebInfo/AiBots.lib</ImportLibrary>
+      <ProgramDataBaseFile>d:/Dev/Svn/AiBots/Canvas/Deploy/Src/win64-vs2013-debug/RelWithDebInfo/AiBots.pdb</ProgramDataBaseFile>
+      <StackReserveSize>5000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule d:/Dev/Svn/AiBots/Canvas/Src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -Hd:/Dev/Svn/AiBots/Canvas/Src -BD:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug --check-stamp-file D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">d:/Dev/Svn/AiBots/Canvas/Src/CMakeLists.txt;d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeCCompiler.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeCXXCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_private.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_unittests.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_windows.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_android.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_osx.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_pnacl.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_generators.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake-toolchains\windows.cmake;d:\Dev\Svn\AiBots\Canvas\Src\fips-include.cmake;d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule d:/Dev/Svn/AiBots/Canvas/Src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -Hd:/Dev/Svn/AiBots/Canvas/Src -BD:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug --check-stamp-file D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">d:/Dev/Svn/AiBots/Canvas/Src/CMakeLists.txt;d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeCCompiler.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeCXXCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_private.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_unittests.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_windows.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_android.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_osx.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_pnacl.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_generators.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake-toolchains\windows.cmake;d:\Dev\Svn\AiBots\Canvas\Src\fips-include.cmake;d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule d:/Dev/Svn/AiBots/Canvas/Src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -Hd:/Dev/Svn/AiBots/Canvas/Src -BD:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug --check-stamp-file D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">d:/Dev/Svn/AiBots/Canvas/Src/CMakeLists.txt;d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeCCompiler.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeCXXCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_private.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_unittests.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_windows.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_android.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_osx.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_pnacl.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_generators.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake-toolchains\windows.cmake;d:\Dev\Svn\AiBots\Canvas\Src\fips-include.cmake;d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule d:/Dev/Svn/AiBots/Canvas/Src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -Hd:/Dev/Svn/AiBots/Canvas/Src -BD:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug --check-stamp-file D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">d:/Dev/Svn/AiBots/Canvas/Src/CMakeLists.txt;d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeCCompiler.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeCXXCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\3.2.3\CMakeRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_private.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_unittests.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_windows.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_android.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_osx.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_pnacl.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake\fips_generators.cmake;d:\Dev\Svn\AiBots\Canvas\Src\Third\fips\cmake-toolchains\windows.cmake;d:\Dev\Svn\AiBots\Canvas\Src\fips-include.cmake;d:\Dev\Svn\AiBots\Canvas\Src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Dev\Svn\AiBots\Canvas\Build\Src\win64-vs2013-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\App.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\blendish.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Config\UserOptions.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\ConsoleUtils.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\constants.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Common.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Config.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Id.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Macros.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Murmur.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Platform.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Types.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\IndexedPriorityQueueLow.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\PriorityQueue.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\PriorityQueueFn.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\PriorityQueueLow.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Array.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Blob.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\DynamicBlob.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\EventStream.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Functional.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\HashMap.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\IdArray.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\IdTable.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Map.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Pair.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\PriorityQueue.New.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Queue.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\SortMap.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Containers\Vector.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\DebugConsole.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Error.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Log.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\StackTrace.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\DiskFile.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\DiskFileSystem.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\File.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileBinaryReader.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileBinaryWriter.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileSystem.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileTextReader.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\FileTextWriter.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\OsFile.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\Json.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonElement.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonParser.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonTypes.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\Rjson.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Matrix3x3.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\MathFn.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Math2DFn.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Transformations.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Vector2.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\Allocator.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\HeapAllocator.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\LinearAllocator.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\Memory.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\MemoryAux.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\PoolAllocator.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\ProxyAllocator.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\ScratchAllocator.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\StackAllocator.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\TempAllocator.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Os\Os.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Os\Windows\Headers_Windows.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\DynamicString.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\FixedString.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\Path.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringId32.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringId64.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringStream.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringUtils.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\AtomicInt.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Mutex.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\ScopedMutex.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Semaphore.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Thread.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Time\CrudeTimer.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Time\PrecisionTimer.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Events\InputEvents.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Input\InputSystem.h" />
+    <ClInclude Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Renderer\Canvas.h" />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\App.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\App\nanovg.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Config\UserOptions.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Base\Murmur.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\DebugConsole.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Error.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Log.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Debug\Windows\StackTrace_Windows.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\DiskFile.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\DiskFileSystem.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\FileSystem\Windows\OsFile_Windows.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\Json.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonElement.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\JsonParser.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Json\Rjson.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Math\Vector2.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\HeapAllocator.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\LinearAllocator.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\Memory.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\PoolAllocator.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\ProxyAllocator.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\ScratchAllocator.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Memory\StackAllocator.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Os\Windows\Os_Windows.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\DynamicString.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\Path.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringId32.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Strings\StringId64.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Windows\AtomicInt_Windows.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Windows\Mutex_Windows.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Windows\Semaphore_Windows.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Thread\Windows\Thread_Windows.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Time\CrudeTimer.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Core\Time\PrecisionTimer.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Input\InputSystem.cpp"  />
+    <ClCompile Include="d:\Dev\Svn\AiBots\Canvas\Src\AiBots\Renderer\Canvas.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug/ALL_GENERATE.vcxproj">
+      <Project>80500403-3BAF-4B81-A1AE-02686AC7FB2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug/ZERO_CHECK.vcxproj">
+      <Project>619A9723-FAC0-41D6-966B-717ACEEFB3AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug/app-os.vcxproj">
+      <Project>EA85FE33-7236-4C17-B977-1C9D36B81A50</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug/bgfx.vcxproj">
+      <Project>12255033-41D1-452F-93D5-64B66EDE2438</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Dev/Svn/AiBots/Canvas/Build/Src/win64-vs2013-debug/bgfx-3rdparty.vcxproj">
+      <Project>2519F7F0-81A2-456E-BC21-33CCE63272C0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
